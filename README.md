@@ -3,6 +3,12 @@ This project is written in typescript 1.5 with ES6 modules.
 Take a look at the `scripts` section of `package.json` to understand how it works.
 Typescript assets are compiled with http://webpack.github.io[webpack].
 
+To setup your machine, run:
+
+---
+npm install
+---
+
 To build the app, run:
 
 ----
