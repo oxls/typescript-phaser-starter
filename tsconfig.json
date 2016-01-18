@@ -1,0 +1,34 @@
+{
+    "version": "1.5.0-beta",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./app/src/data/Words.ts",
+        "./app/src/defs/definitions.d.ts",
+        "./app/src/Game.ts",
+        "./app/src/state/Boot.ts",
+        "./app/src/state/Main.ts",
+        "./app/src/state/Preload.ts",
+        "./app/src/state/States.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "bower_components"
+    ],
+    "compileOnSave": false,
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
