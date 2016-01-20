@@ -8,6 +8,10 @@ module.exports = {
     extensions: ['', '.webpack.js', '.web.js', '.ts', '.js']
   },
 
+  devServer: {
+    contentBase: './dist',
+  },
+
   entry: {
     app: './app/src/Game.ts',
     includes: './app/includes.js',
